@@ -70,6 +70,9 @@ body {
 .column-container {
   display: flex;
   flex-direction: column;
+  /* float: left;
+  width: 70%;
+  padding: 15px; */
 }
 
 .column-left {
@@ -77,34 +80,20 @@ body {
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 15px 20px 0;
 }
 
 .column-right {
-  display:flex;
-  flex-direction: row; 
+  display: flex;
+  flex-direction: colrowumn; 
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 15px 20px 0;
 }
 
 .footer {
   background-color: rgb(78, 77, 77);
   padding: 10px;
   color: white;
-}
-
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  /* background: #ccc; */
-  padding: 20px;
-}
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #f1f1f1;
-  padding: 10px;
 }
